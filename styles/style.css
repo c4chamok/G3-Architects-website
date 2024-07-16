@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* font Config */
+h4{
+    color: rgb(19, 19, 19);
+    font-family: Work Sans;
+    font-size: 1.75rem;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0%;
+}
+
+p{
+    color: rgb(114, 114, 114);
+    font-family: Work Sans;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+    font-family: Work Sans;
+    font-size: .94;
+    font-weight: 500;
+    line-height: 16px;
+    letter-spacing: 0%;
+}
+
+h1{
+    color: rgb(19, 19, 19);
+    font-family: Work Sans;
+    font-size: 2.78rem;
+    font-weight: 700;
+    line-height: 52.3px;
+    letter-spacing: 0%;
+}
+
+.btn-primary{
+    color: rgb(255, 255, 255);
+    font-family: Work Sans;
+    font-size: 0.87rem;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0%;
+}
+/* General settings */
+*{
+    margin: 0;
+}
+
+.header{
+    background: rgba(255, 144, 14, 0.1);
+}
+
+/* Nav Styles */
+.navbar{
+    max-width: 80%;
+    margin: 0 auto;
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+    padding-inline-start: 0;
+    gap: 3.8vw;
+}
+
+.nav-links li{
+    list-style: none;
+}
+/* Banner styles */
+.banner{
+    max-width: 40%;
+    padding: 20px;
+    margin: 0px auto;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.banner p{
+    margin-top: 10px;
+}
+
+.btn-primary{
+    border-radius: 8px;
+    background: rgb(255, 144, 14);
+    height: 44.6px;
+    width: 125.6px;
+    border: none;
+    margin-top: 10px;
+}
+
+.banner-img{
+    margin: 0 auto;
+    max-width: 70%;
+    padding-bottom: 20.6px;
+}
+.banner-img img{
+    width: 100%;
+}
+
+@media screen and (max-width:576px) {
+    .navbar, .nav-links{
+        flex-direction: column;
+        align-items: center;
+        padding-left: 0;
+        gap: 20px;
+    }
+
+}
